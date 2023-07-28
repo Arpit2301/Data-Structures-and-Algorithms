@@ -18,7 +18,7 @@ void sort(int arr[], int n){
         while(arr[j]==1 && i<n){
             j--;
         }
-        // agar yha puch gye iska mtlb arr[i]==1 and arr[j]=0
+        // agar yha puch gye iska mtlb arr[i]==1 and arr[j]==0
         if(i<n){
             swap(arr[i], arr[j]);
             i++;
